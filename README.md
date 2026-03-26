@@ -29,7 +29,7 @@ This project implements a full-stack AI-enhanced group chat system, including:
 
 Login to MySQL and run:
 
-```sql
+
 CREATE DATABASE groupchat CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 CREATE USER 'chatuser'@'localhost' IDENTIFIED BY 'chatpass';
@@ -37,6 +37,7 @@ CREATE USER 'chatuser'@'localhost' IDENTIFIED BY 'chatpass';
 GRANT ALL PRIVILEGES ON groupchat.* TO 'chatuser'@'localhost';
 
 FLUSH PRIVILEGES;
+
 
 ---
 
