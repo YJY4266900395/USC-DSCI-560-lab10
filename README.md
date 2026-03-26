@@ -90,3 +90,30 @@ Then ensure .env:
 
 LLM_API_BASE=http://localhost:8001/v1
 
+**Part 2 – Android App (TWA)**
+## 1. Open Project
+
+Open:
+
+twa_android_src/
+
+in Android Studio.
+
+## 2. Configure URL
+
+Edit:
+
+app/src/main/res/values/strings.xml
+<string name="defaultUrl">http://10.0.2.2:8000</string>
+
+10.0.2.2 is required for Android emulator to access local backend.
+
+## 3. Run App
+Start Android Emulator
+Click ▶ Run
+## 4. Important Note
+
+Because the URL is HTTP (not HTTPS):
+
+The app may open Chrome instead of full TWA mode
+This is expected for local testing
