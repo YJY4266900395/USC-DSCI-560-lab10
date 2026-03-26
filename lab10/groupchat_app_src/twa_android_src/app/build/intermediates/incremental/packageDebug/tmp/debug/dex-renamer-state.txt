@@ -1,0 +1,7 @@
+#Thu Mar 26 12:59:43 PDT 2026
+base.0=/Users/pang/Desktop/560/lab10/lab10/groupchat_app_src/twa_android_src/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/pang/Desktop/560/lab10/lab10/groupchat_app_src/twa_android_src/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
